@@ -25,6 +25,7 @@ public class ModCreativeModTab {
 
                         //blocks
                         pOutput.accept(ModBlocks.GUMBALL_BLOCK.get());
+                        pOutput.accept(ModBlocks.CANDY_BLOCK.get());
 
                     })
                     .build());
