@@ -22,6 +22,7 @@ public class ModCreativeModTab {
 
                         //items
                         pOutput.accept(ModItems.CANDY_CANE.get());
+                        pOutput.accept(ModItems.BROWN_SUGAR_CRYSTAL.get());
 
                         //blocks
                         pOutput.accept(ModBlocks.GUMBALL_BLOCK.get());

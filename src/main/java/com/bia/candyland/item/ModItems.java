@@ -14,6 +14,9 @@ public class ModItems {
     public static final RegistryObject<Item> CANDY_CANE = ITEMS.register("candy_cane",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> BROWN_SUGAR_CRYSTAL = ITEMS.register("brown_sugar_crystal",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
