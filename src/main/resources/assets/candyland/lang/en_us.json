@@ -1,3 +1,7 @@
 {
-  "item.candyland.candy_cane": "Candy Cane"
+  "item.candyland.candy_cane": "Candy Cane",
+
+  "block.candyland.gumball_block": "Gumball Block",
+
+  "creativetab.candy_land_tab": "Candy Land"
 }

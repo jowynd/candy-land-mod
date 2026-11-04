@@ -1,6 +1,7 @@
 package com.bia.candyland;
 
-//import com.bia.candyland.block.ModBlocks;
+import com.bia.candyland.block.ModBlocks;
+import com.bia.candyland.item.ModCreativeModTab;
 import com.bia.candyland.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -27,8 +28,10 @@ public class CandyLandMod {
     public CandyLandMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModCreativeModTab.register(modEventBus);
+
         ModItems.register(modEventBus);
-//        ModBlocks.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -47,13 +50,14 @@ public class CandyLandMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.CANDY_CANE);
+            event.accept(ModBlocks.GUMBALL_BLOCK);
         }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-
+        System.out.println("teste!!!");
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
