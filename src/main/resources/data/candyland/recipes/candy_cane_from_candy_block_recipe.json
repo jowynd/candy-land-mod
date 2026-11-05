@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "candyland:candy_block"
+    }
+  ],
+  "result": {
+    "item": "candyland:candy_cane",
+    "count": 9
+  }
+}

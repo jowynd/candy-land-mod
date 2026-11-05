@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "candyland:candy_cane"
+    }
+  },
+  "result": {
+    "item": "candyland:candy_block"
+  }
+}
