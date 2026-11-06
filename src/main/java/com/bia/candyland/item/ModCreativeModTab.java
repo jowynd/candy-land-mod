@@ -23,13 +23,14 @@ public class ModCreativeModTab {
                         //items
                         pOutput.accept(ModItems.CANDY_CANE.get());
                         pOutput.accept(ModItems.BROWN_SUGAR_CRYSTAL.get());
+                        pOutput.accept(ModItems.SUGAR_CRYSTAL.get());
 
                         //blocks
                         pOutput.accept(ModBlocks.GUMBALL_BLOCK.get());
                         pOutput.accept(ModBlocks.CANDY_BLOCK.get());
                         pOutput.accept(ModBlocks.CHOCOLATE_CAKE_BLOCK.get());
                         pOutput.accept(ModBlocks.GRANULATED_CHOCOLATE_CAKE_BLOCK.get());
-
+                        pOutput.accept(ModBlocks.SUGAR_CRYSTAL_ORE.get());
                     })
                     .build());
 

@@ -31,6 +31,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> GRANULATED_CHOCOLATE_CAKE_BLOCK = registerBlock("granulated_chocolate_cake_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.ROOTED_DIRT)));
 
+    public static final RegistryObject<Block> SUGAR_CRYSTAL_ORE = registerBlock("sugar_crystal_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.STONE)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

@@ -1,11 +1,14 @@
 {
   "item.candyland.candy_cane": "Candy Cane",
   "item.candyland.brown_sugar_crystal": "Brown Sugar Crystal",
+  "item.candyland.sugar_crystal": "Sugar Crystal",
+
 
   "block.candyland.gumball_block": "Gumball Block",
   "block.candyland.candy_block": "Candy Block",
   "block.candyland.chocolate_cake_block": "Chocolate Cake Block",
   "block.candyland.granulated_chocolate_cake_block": "Granulated Chocolate Cake Block",
+  "block.candyland.sugar_crystal_ore": "Sugar Crystal Ore",
 
   "creativetab.candy_land_tab": "Candy Land"
 }
