@@ -4,6 +4,8 @@
 
   "block.candyland.gumball_block": "Gumball Block",
   "block.candyland.candy_block": "Candy Block",
+  "block.candyland.chocolate_cake_block": "Chocolate Cake Block",
+  "block.candyland.granulated_chocolate_cake_block": "Granulated Chocolate Cake Block",
 
   "creativetab.candy_land_tab": "Candy Land"
 }

@@ -27,6 +27,8 @@ public class ModCreativeModTab {
                         //blocks
                         pOutput.accept(ModBlocks.GUMBALL_BLOCK.get());
                         pOutput.accept(ModBlocks.CANDY_BLOCK.get());
+                        pOutput.accept(ModBlocks.CHOCOLATE_CAKE_BLOCK.get());
+                        pOutput.accept(ModBlocks.GRANULATED_CHOCOLATE_CAKE_BLOCK.get());
 
                     })
                     .build());
