@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "paramset": {
+    "type": "minecraft:biome",
+    "biome_type": "minecraft:is_overworld"
+  },
+  "entities": [
+    {
+      "entity": "candyland:gummy_bear",
+      "weight": 40,
+      "minCount": 2,
+      "maxCount": 4,
+      "paramset": {
+        "type": "minecraft:weight",
+        "min_inclusive": 50000,
+        "max_inclusive": 80000
+      }
+    }
+  ]
+}

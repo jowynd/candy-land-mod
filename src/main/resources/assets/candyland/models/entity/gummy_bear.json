@@ -1,0 +1,7 @@
+{
+  "credit": "Made with Blockbench 5.2.2",
+  "texture_size": [64, 64],
+  "textures": {
+    "layer1": "candyland:entity/gummy_bear"
+  }
+}

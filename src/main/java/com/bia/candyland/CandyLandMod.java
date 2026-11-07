@@ -1,8 +1,10 @@
 package com.bia.candyland;
 
 import com.bia.candyland.block.ModBlocks;
+import com.bia.candyland.entity.ModEntities;
 import com.bia.candyland.item.ModCreativeModTab;
 import com.bia.candyland.item.ModItems;
+import com.bia.candyland.item.ModSpawnEggs;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -31,6 +33,8 @@ public class CandyLandMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEntities.register(modEventBus);
+        ModSpawnEggs.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

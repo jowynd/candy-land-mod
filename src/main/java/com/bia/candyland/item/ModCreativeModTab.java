@@ -2,6 +2,7 @@ package com.bia.candyland.item;
 
 import com.bia.candyland.CandyLandMod;
 import com.bia.candyland.block.ModBlocks;
+import com.bia.candyland.item.ModSpawnEggs;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -31,6 +32,9 @@ public class ModCreativeModTab {
                         pOutput.accept(ModBlocks.CHOCOLATE_CAKE_BLOCK.get());
                         pOutput.accept(ModBlocks.GRANULATED_CHOCOLATE_CAKE_BLOCK.get());
                         pOutput.accept(ModBlocks.SUGAR_CRYSTAL_ORE.get());
+
+                        //spawn eggs
+                        pOutput.accept(ModSpawnEggs.GUMMY_BEAR_SPAWN_EGG.get());
                     })
                     .build());
 
